@@ -1,0 +1,27 @@
+
+# html lang
+language: en
+
+# main menu navigation
+menu:
+  home: /
+  categories: /categories/
+  archives: /archives/
+  tags: /tags/
+
+# Miscelaneous
+favicon: /favicon.ico
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/aerotwist.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/aerotwist.js
+
+
+# Footer Avatar
+# in theme directory(source/images): /images/avatar.jpg
+# in site  directory(source/uploads): /uploads/avatar.jpg
+avatar: /images/avatar.gif

@@ -1,0 +1,36 @@
+extends includes/layout.pug
+
+block content
+  include ../source/images/shape-reference.svg
+  .masthead.hatched
+    svg.behind-meta(width="666", height="333")
+      use(xlink:href="#color-block")
+    svg.left-meta(width="666", height="333")
+      use(xlink:href="#color-block", filter="url(#blur-6)", transform="translate(333 166) scale(-0.5 0.5) translate(-333 -167)")
+    .container
+      h2= page.title
+      p
+  .container
+    .meta
+      ul
+        li.last-updated
+          span.name Last updated:
+          span.value= page.updated.format('D MMM YYYY')
+        li
+          span.name Est. Read Time:
+          span.value
+        li.share
+          span.name Share this:
+          span.value
+        li.tags
+          span.name Tagged:
+          span.value= page.tags.toArray().map(function (tag) { return '#' + tag.name }).join(', ')
+  .container
+    .left.column
+      !=page.content
+  .footer-share.container
+  .clear
+  svg.left-shape(style="margin-left: -316.35px", width="466.2", height="932.4")
+    use(xlink:href="#color-block", filter="url(#blur-4)", transform="scale(-1.4 1.4) rotate(90)")
+  svg.right-shape(width="166.5", height="599.4")
+    use(xlink:href="#color-block", filter="url(#blur-8)", transform="scale(-0.9 0.9) rotate(90)")

@@ -1,0 +1,13 @@
+.left.column
+  .posts
+    ul
+      each post in page.posts.sort('date', -1).toArray()
+        li
+          a(href=config.root + post.path)
+            span.left
+              span.date= post.date.format('D/MMM')
+              span.year= post.date.format('YYYY')
+            span.right
+              span.title= post.title
+              span.tags= post.tags.toArray().map(function (tag) { return '#' + tag.name }).join(', ')
+            span.clear

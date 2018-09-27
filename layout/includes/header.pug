@@ -1,0 +1,12 @@
+header
+  .container
+    #logo
+    nav
+      ul
+        each url, label in theme.menu
+          li(class=is_current(url) ? 'active' : '')
+            a(href=url)= label
+      svg#left-line(version="1.1", xmlns="http://www.w3.org/2000/svg", xmlns:xlink="http://www.w3.org/1999/xlink", x="0px", y="0px", width="380px", height="380px", viewBox="0 0 380 380")
+        line(x1 = "0", y1 = "380", x2 = "380", y2 = "0", stroke = "#AAAAAA", stroke-width = "1")
+      svg#right-line(version="1.1", xmlns="http://www.w3.org/2000/svg", xmlns:xlink="http://www.w3.org/1999/xlink", x="0px", y="0px", width="380px", height="380px", viewBox="0 0 380 380")
+        line(x1 = "0", y1 = "380", x2 = "380", y2 = "0", stroke = "#AAAAAA", stroke-width = "1")

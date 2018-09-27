@@ -1,0 +1,64 @@
+<svg version="1.1" class="shape-reference" xmlns="http://www.w3.org/2000/svg" width="666" height="333">
+  <defs>
+    <filter id="blur-8">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8"></feGaussianBlur>
+    </filter>
+    <filter id="blur-6">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6"></feGaussianBlur>
+    </filter>
+    <filter id="blur-4">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4"></feGaussianBlur>
+    </filter>
+  </defs>
+
+  <g id="color-block">
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#90a9c9" stroke="#90a9c9" stroke-width="0.6" points="40,99 78,117 96,135"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#bdcde0" stroke="#bdcde0" stroke-width="0.6" points="78,117 40,99 94,40"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#d3d5e6" stroke="#d3d5e6" stroke-width="0.6" points="78,117 94,40 132,65"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#bfb9d6" stroke="#bfb9d6" stroke-width="0.6" points="78,117 132,65 145,101"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#9ea0c6" stroke="#9ea0c6" stroke-width="0.6" points="96,135 78,117 145,101"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#a08cbc" stroke="#a08cbc" stroke-width="0.6" points="96,135 145,101 156,142"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#857bb2" stroke="#857bb2" stroke-width="0.6" points="103,154 96,135 156,142"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#656ba6" stroke="#656ba6" stroke-width="0.6" points="96,135 103,154 106,196"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#625694" stroke="#625694" stroke-width="0.6" points="106,196 103,154 149,181"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#524477" stroke="#524477" stroke-width="0.6" points="116,222 106,196 149,181"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#513667" stroke="#513667" stroke-width="0.6" points="116,222 149,181 168,228"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#342544" stroke="#342544" stroke-width="0.6" points="129,265 116,222 168,228"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#251227" stroke="#251227" stroke-width="0.6" points="129,265 168,228 218,287"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#35122f" stroke="#35122f" stroke-width="0.6" points="218,287 168,228 223,241"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#1e0616" stroke="#1e0616" stroke-width="0.6" points="218,287 223,241 289,293"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#4b0c33" stroke="#4b0c33" stroke-width="0.6" points="223,241 260,204 289,293"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#791d5e" stroke="#791d5e" stroke-width="0.6" points="223,241 214,186 260,204"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#612258" stroke="#612258" stroke-width="0.6" points="168,228 214,186 223,241"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#6e3371" stroke="#6e3371" stroke-width="0.6" points="168,228 149,181 214,186"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#8d4595" stroke="#8d4595" stroke-width="0.6" points="149,181 156,142 214,186"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#7e60a3" stroke="#7e60a3" stroke-width="0.6" points="149,181 103,154 156,142"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#a84d9e" stroke="#a84d9e" stroke-width="0.6" points="214,186 156,142 215,139"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#a92b84" stroke="#a92b84" stroke-width="0.6" points="214,186 215,139 260,204"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#ce2e92" stroke="#ce2e92" stroke-width="0.6" points="260,204 215,139 299,131"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#e01081" stroke="#e01081" stroke-width="0.6" points="260,204 299,131 330,175"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#980855" stroke="#980855" stroke-width="0.6" points="320,254 260,204 330,175"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#4c062d" stroke="#4c062d" stroke-width="0.6" points="289,293 260,204 320,254"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#250013" stroke="#250013" stroke-width="0.6" points="289,293 320,254 399,275"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3e0525" stroke="#3e0525" stroke-width="0.6" points="399,275 320,254 405,247"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#2c0a21" stroke="#2c0a21" stroke-width="0.6" points="399,275 405,247 493,269"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3d1536" stroke="#3d1536" stroke-width="0.6" points="405,247 490,223 493,269"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#69184f" stroke="#69184f" stroke-width="0.6" points="405,247 397,197 490,223"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#6d0940" stroke="#6d0940" stroke-width="0.6" points="320,254 397,197 405,247"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#a40557" stroke="#a40557" stroke-width="0.6" points="320,254 330,175 397,197"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#e7097d" stroke="#e7097d" stroke-width="0.6" points="330,175 337,143 397,197"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#f92692" stroke="#f92692" stroke-width="0.6" points="330,175 299,131 337,143"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#f854a9" stroke="#f854a9" stroke-width="0.6" points="299,131 320,106 337,143"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#ec7bbb" stroke="#ec7bbb" stroke-width="0.6" points="299,131 232,97 320,106"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#d870b4" stroke="#d870b4" stroke-width="0.6" points="215,139 232,97 299,131"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#ce84bc" stroke="#ce84bc" stroke-width="0.6" points="215,139 199,114 232,97"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#b774b2" stroke="#b774b2" stroke-width="0.6" points="156,142 199,114 215,139"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#b68cbf" stroke="#b68cbf" stroke-width="0.6" points="156,142 145,101 199,114"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#d9bbd9" stroke="#d9bbd9" stroke-width="0.6" points="199,114 145,101 205,40"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#e2b9d9" stroke="#e2b9d9" stroke-width="0.6" points="232,97 199,114 205,40"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#f4dced" stroke="#f4dced" stroke-width="0.6" points="232,97 205,40 274,43"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#f2b1d7" stroke="#f2b1d7" stroke-width="0.6" points="232,97 274,43 320,106"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#e4d7e8" stroke="#e4d7e8" stroke-width="0.6" points="145,101 132,65 205,40"></polygon>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#2f2541" stroke="#2f2541" stroke-width="0.6" points="493,269 490,223 626,231"></polygon>
+  </g>
+</svg>
