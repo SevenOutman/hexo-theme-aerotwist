@@ -16,12 +16,9 @@ block content
         li.last-updated
           span.name Last updated:
           span.value= page.updated.format('D MMM YYYY')
-        li
-          span.name Est. Read Time:
-          span.value
-        li.share
-          span.name Share this:
-          span.value
+        li.tags
+          span.name Category:
+          span.value= page.categories.toArray().map(function (category) {return category.name}).join(', ')
         li.tags
           span.name Tagged:
           span.value= page.tags.toArray().map(function (tag) { return '#' + tag.name }).join(', ')
