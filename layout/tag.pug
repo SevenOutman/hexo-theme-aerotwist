@@ -1,17 +1,21 @@
 extends includes/layout.pug
 
 block content
-  div#tag
-    h1= 'Tag: ' + page.tag
-    - page.posts.each(function(article){
-      if article.link
-        a(href=url_for(article.link) target="_blank")
-          = article.title || 'No Title'
-        time(datetime=date_xml(article.date))= date(article.date)
-      else
-        a(href=url_for(article.path))= article.title || 'No Title'
-        time(datetime=date_xml(article.date))= date(article.date)
-      br.clear
-    - })
-  div!= paginator()
-
+  .masthead.small.hatched
+    .container
+      h2= pageTitle
+      p
+  .container
+    .left.column
+      .posts
+        ul
+          each post in page.posts.sort('date', -1).toArray()
+            li
+              a(href=config.root + post.path)
+                span.left
+                  span.date= post.date.format('D/MMM')
+                  span.year= post.date.format('YYYY')
+                span.right
+                  span.title= post.title
+                  span.tags= post.tags.toArray().map(function (tag) {return '#' + tag.name}).join(', ')
+                span.clear

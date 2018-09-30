@@ -5,8 +5,8 @@ language: en
 # main menu navigation
 menu:
   home: /
-  categories: /categories/
   archives: /archives/
+  categories: /categories/
   tags: /tags/
 
 # Miscelaneous

@@ -5,8 +5,11 @@
 - if (is_month()) pageTitle += ': ' + page.month + '/' + page.year
 - if (is_year()) pageTitle += ': ' + page.year
 
-- var bodyClass = 'blog'
-- if (is_home()) bodyClass = 'blog blog-listing'
+- var bodyClass = 'home'
+- if (is_archive()) bodyClass = 'blog blog-listing'
+- if (page.type === 'categories') bodyClass = 'tutorials tutorials-listing'
+- if (page.type === 'tags') bodyClass = 'lab lab-listing'
+- if (is_post()) bodyClass = 'blog'
 
 doctype html
 html(lang=config.language)

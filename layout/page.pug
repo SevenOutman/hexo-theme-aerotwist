@@ -1,8 +1,7 @@
 extends includes/layout.pug
 
 block content
-  article#page
-    h1= page.title
-    != page.content
-  div!= paginator()
-
+  .masthead.small.hatched
+    .container
+      h2= pageTitle
+      p

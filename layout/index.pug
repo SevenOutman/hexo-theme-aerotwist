@@ -1,10 +1,15 @@
 extends includes/layout.pug
 
 block content
-  .masthead.small.hatched
-    .container
-      h2= pageTitle
-      p
+  - var latestPost = site.posts.sort('date', -1).toArray()[0]
+  .masthead.hatched
+    a(href=latestPost.path)
+      .container
+        .sub-title
+          .lines
+          div Latest post:
+          .lines
+        .main-title= latestPost.title
   .container
     include includes/recent-posts.pug
 
