@@ -2,6 +2,10 @@ extends includes/layout.pug
 
 block content
   - var estReadTime = min2read(page.content)
+  - var highlightReg = /<figure class="highlight[ "].*?\/figure>/g
+  - var highlights = page.content.match(highlightReg).map(function (figure) { return figure.replace(/figure/g, 'div')})
+  - var partions = page.content.split(highlightReg).map(function (partion) { return '<div class="container"><div class="left column">' + partion.replace(/<img.*?title="(.*?)".*?\/?>/g, '<figure>$&<figcaption>$1</figcaption></figure>') + '</div></div>'; })
+  - var rearrangedContent = partions.reduce(function (acc, partion, index) { acc.push(partion); acc.push(highlights[index]); return acc;}, []).join('');
 
   include ../source/images/shape-reference.svg
   .masthead.hatched
@@ -27,9 +31,7 @@ block content
         li.tags
           span.name Tagged:
           span.value= page.tags.toArray().map(function (tag) { return '#' + tag.name }).join(', ')
-  .container
-    .left.column
-      !=page.content
+  !=rearrangedContent
   .footer-share.container
   .clear
   svg.left-shape(style="margin-left: -316.35px", width="466.2", height="932.4")
